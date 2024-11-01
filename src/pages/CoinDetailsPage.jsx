@@ -20,7 +20,7 @@ function CoinDetailsPage() {
     }
 
     return (
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col md:flex-row mb-5">
 
             <div
                 className="md:w-1/3 w-full flex flex-col items-center mt-6 md:mt-0 border-r-2 border-gray-500"
@@ -44,7 +44,7 @@ function CoinDetailsPage() {
                 </p>
 
                 <div
-                    className="w-full flex flex-col md:flex-row md:justify-around"
+                    className="w-full flex flex-col md:flex-row md:justify-around px-6"
                 >
                     <div 
                         className="flex items-center mb-4 md:mb-0"
